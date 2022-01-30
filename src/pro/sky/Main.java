@@ -71,5 +71,23 @@ public class Main {
         int salaryChristinaEnlargedYear = salaryChristinaEnlarged * 12;
         int salaryChristinaPayGap = salaryChristinaEnlargedYear - salaryChristinaCurrentYear;
         System.out.println("Кристина теперь получает " + salaryChristinaEnlarged + " рублей/месяц. Годовой доход вырос на " + salaryChristinaPayGap + " рублей/год");
+        //task 6
+        int aa = 12;
+        int bb = 27;
+        int cc = 44;
+        int dd = 15;
+        int ee = 9;
+        int result = -(aa * (bb + (cc - dd * ee)));
+        System.out.println("Результат вычисления (инвертированный) " + result);
+        //task 7
+        int aaa = 5;
+        int bbb = 7;
+        aaa += 2;
+        bbb -= 2;
+        System.out.println("a = " + aaa + "; b = " + bbb);
+        //task8
+        int aaaa = 756;
+        int bbbb = aaaa / 10 % 10;
+        System.out.println("a = " + aaaa + "; b = " + bbbb);
     }
 }
